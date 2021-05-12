@@ -86,6 +86,12 @@ if(keypressed =='87')
 
 }
 
+if(car1_x >=700)
+{
+    console.log("car1 won");
+    document.getElementById("game_status").innerHTML= "car1 won!";
+}
+
 }
 
 function car1_up()
@@ -155,8 +161,3 @@ uploadcar2();
 
 }
 
-if(car1_x >700)
-{
-    console.log("car1 won");
-    document.getElementById('game_status').innerHTML= "car1 won!";
-}
